@@ -1,0 +1,11 @@
+# Page Setup
+title = "Hello World"
+baseURL = "/"
+# Dir Setup
+post_path = "posts"
+page_path = "pages"
+layout_path = "layouts"
+static_path = "static"
+# Other
+[permalinks]
+  posts = "/:?series/:title/"
