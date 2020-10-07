@@ -6,6 +6,8 @@ post_path = "posts"
 page_path = "pages"
 layout_path = "layouts"
 static_path = "static"
+# Post Setup
+require_fields = [ "title", "date" ]
 # Other
 [permalinks]
   posts = "/:?series/:title/"
